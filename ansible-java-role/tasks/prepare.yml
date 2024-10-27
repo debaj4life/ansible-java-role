@@ -1,0 +1,6 @@
+---
+- name: Install java jdk 17
+  yum: 
+      name: java-17-amazon-corretto-devel
+      state:  latest
+  become: true
